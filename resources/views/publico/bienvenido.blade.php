@@ -5,6 +5,6 @@
     <title></title>
   </head>
   <body>
-    <h1>Bienvenido!</h1>
+    <h1>Bienvenido {{ $awitadecoco }}</h1>
   </body>
 </html>

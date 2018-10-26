@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('publico.bienvenido');
+Route::get('inicio/{usuario}', function ($awitadecoco) {
+    return view('publico.bienvenido', compact('awitadecoco'));
 });
