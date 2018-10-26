@@ -10,6 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/bienvenida', function () {
+    return view('publico.bienvenido');
+});
+
 
 Route::get('/logout', function () {
     return view('publico.despedida');
