@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('publico.bienvenido');
+Route::get('/logout', function () {
+    return view('publico.despedida');
 });
